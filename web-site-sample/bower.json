@@ -1,0 +1,31 @@
+{
+  "name": "web-site-sample",
+  "description": "Web Site Bootstrap",
+  "main": "index.js",
+  "authors": [
+    "Thiago Almeida"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "bootstrap",
+    "js",
+    "css",
+    "sass"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "jquery": "^3.2.1"
+  },
+  "resolutions": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

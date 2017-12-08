@@ -1,0 +1,41 @@
+{
+  "name": "web-site-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "js",
+    "css",
+    "sass"
+  ],
+  "author": "Thiago Almeida",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.8.2",
+    "bower-main": "^0.2.14",
+    "browser-sync": "^2.18.13",
+    "bs-snippet-injector": "^2.0.1",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-error-notifier": "^1.1.0",
+    "gulp-filter": "^5.0.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-inject": "^4.3.0",
+    "gulp-main-bower-files": "^1.6.2",
+    "gulp-notify": "^3.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "main-bower-files": "^2.13.1",
+    "path-exists": "^3.0.0",
+    "run-sequence": "^2.2.0"
+  }
+}

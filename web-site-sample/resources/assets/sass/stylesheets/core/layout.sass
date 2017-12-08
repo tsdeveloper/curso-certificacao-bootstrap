@@ -1,0 +1,46 @@
+@mixin percent-col($num-col,  $total-grid, $percentual)
+  width: ($num-col / $total-grid * $percentual) 
+
+@mixin first-child()
+  &:first-of-type
+    @content
+
+@mixin child($n) 
+  &:nth-child(#{$n})
+  background-color:rgb($n,$n,$n)
+     
+ 
+html
+  font-size: 16px
+
+.box, .box1
+  width: 25%
+  min-height: 100px
+  position: relative
+  float: left   
+  display: flex
+  flex-direction: column
+  
+.box1
+  justify-content: center
+  align-items: center;
+
+.col:nth-child(1)
+  @extend .box 
+  @include percent-col(1, 12, 100%)
+  background-color: #f00
+ 
+.col:nth-child(2)
+  @extend .box 
+  @include percent-col(2, 12, 100%)
+  background-color: #bef
+
+.col:nth-child(3)
+  @extend .box 
+  @include percent-col(3, 12, 100%)
+  background-color: #f70
+
+.col:nth-child(4)
+  @extend .box 
+  @include percent-col(4, 12, 100%)
+  background-color: #c99
